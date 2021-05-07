@@ -1,0 +1,120 @@
+<html>
+
+	<body>
+		<script>
+			/*function a(){
+				return 35;
+			}
+			console.log(a())*/ <!--- Sale 35 --->
+			
+			/*function a(){
+				return 4;
+			}
+			console.log(a()+a());*/ <!--- Sale 8 --->
+			
+			/*function a(b){
+				return b;
+			}
+			console.log(a(2)+a(4));*/ <!--- Sale 6 --->
+			
+			/*function a(b){
+				console.log(b);
+				return b*3;
+			}
+			console.log(a(3));*/ <!--- Sale 3 y 9 --->
+			
+			/*function a(b){
+				return b*4;
+				console.log(b);
+			}
+			console.log(a(10));*/ <!--- Sale 40 --->
+		
+			/*function a(b){
+				if(b<10) {
+					return 2;
+				}
+				else     {
+					return 4;
+				}
+				console.log(b);
+			}
+			console.log(a(15));*/ <!--- Sale 4 --->
+
+			/*function a(b,c){
+				return b*c;
+				}
+			console.log(10,3);
+			console.log( a(3,10) );*/ <!--- Sale 10 3 y luego 30 --->
+			
+			/*function a(b){
+				for(var i=0; i<10; i++){
+					console.log(i);
+				}
+				return i;
+			}
+			console.log(3);
+			console.log(4);*/ <!--- Sale 3 y luego 4 --->
+			
+			/*function a(){
+				for(var i=0; i<10; i++){
+					i = i +2;
+					console.log(i);
+				}
+			}
+			a();*/ <!--- Sale 2 luego 5 luego 8 y luego 11 --->
+			
+			/*function a(b,c){
+				for(var i=b; i<c; i++) {
+					console.log(i);
+				}
+				return b*c;
+			}
+			a(0,10);
+			console.log(a(0,10));*/ <!--- Desde 0 al 9 dos veces y un cero --->
+			
+			/*function a(){
+				for(var i=0; i<10; i++){
+					for(var j=0; j<10; j++){
+						console.log(j);
+					}
+				console.log(i);
+				}
+			}*/	<!--- Sale en blanco --->
+			
+			/*function a(){
+				for(var i=0; i<10; i++){
+					for(var j=0; j<10; j++){
+						console.log(i,j);
+					}
+				console.log(j,i);
+				} 
+			}	*/ <!--- Sale en blanco --->
+			
+			/*var z = 10;
+			function a(){
+				var z = 15;
+				console.log(z);
+			}
+			console.log(z); */ <!--- Sale 10 --->
+			
+			/*var z = 10;
+			function a(){
+				var z = 15;
+				console.log(z);
+			}
+			a();
+			console.log(z); */ <!--- Sale 15 y luego 10 --->
+			
+			var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+    return z;
+}
+z = a();
+console.log(z);
+			
+		</script>
+	</body>
+</html>	
+
